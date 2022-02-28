@@ -1,0 +1,233 @@
+/* common css start */
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000;
+	line-height: 24px;
+	overflow-x: hidden;
+}
+/* common css end */
+/* header start */
+header{
+	padding: 45px 0;
+	background-color: #F0FFF0;
+}
+.h_navbar{
+	padding: 0 !important;
+}
+.logo{
+	width: 198.7px;
+	height: 59px;
+}
+.logo img{
+	width: 100%;
+}
+header .menu li a{
+	padding: 5px 10px !important;
+	color: #000 !important;
+	line-height: 24px;
+	text-align: right;
+	transition: .4s ease;
+}
+header .menu li a:hover {
+	color:#fbc531!important;
+}
+.hm_btn{
+	text-align: right;
+}
+.b_btn{
+	padding: 20px 15px;
+	margin: 0 10px !important;
+	font-weight: 700;
+	line-height: 24px;
+	border: 1px solid #000000;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	display: inline-block;
+}
+.c_btn{
+	margin: 0 10px;
+	background-color: #21B573;
+	padding: 12px 28px;
+	border-radius: 33px;
+	color: #fff;
+	border: none;
+	transition: .4s ease;
+}
+.c_btn:hover {
+	background-color:#fbc531;
+	color: #fff;
+}
+/* header end */
+
+/* banner start */
+.banner{
+	background-color: #F0FFF0;
+	padding: 85px 0;
+}
+.b_text{
+	margin-left: 12px;
+}
+.b_text h1{
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 70px;
+	color: #21B573;
+}
+.b_text p{
+	line-height: 36px;
+}
+.b_text button{
+	background: #21B573;
+	border: none;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 33px;
+	padding: 17px 36px;
+	color: #fff;
+	line-height: 18.75px;
+	transition: .4s ease;
+}
+.b_text button:hover {
+	background-color:#fbc531;
+}
+/* banner end */
+
+/* courses start */
+.courses{
+	background-color: #fff;
+	padding: 50px 0;
+}
+.c_single{
+	margin: 0 auto;
+	background-color: #F8FFFB;
+	height: 270px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: .4s ease;
+	border-radius: 10px;
+
+}
+.c_single:hover {
+	background: #FFFFFF;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+.s_text{}
+.s_text img{
+	width: 66px;
+	height: 100px;
+	padding-bottom: 20px;
+}
+.s_text h6{
+	margin-bottom: 0;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: #413960;
+}
+.s_text p{
+	margin-bottom: 0;
+	color: #585859;
+}
+/* courses end */
+
+/* online course start */
+.o_course{
+	background-color: #fff;
+	padding: 50px 0;
+}
+.c_title h3{
+	margin-bottom: 0;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 54px;
+	color: #413960;
+	text-align: center;
+}
+.o_item{
+	margin-top: 50px;
+	width: 360px;
+	height: 483px;
+	background: #FFFFFF;
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 18px;
+}
+.o_imag{
+
+	text-align: center;
+}
+.i_img{
+	margin-top: 15px;
+	width: 90%;
+}
+.o_item h4{
+	margin-bottom: 0;
+	margin-top: 20px;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: #413960;
+	padding-left: 19px;
+}
+.o_item p{
+	color: #585859;
+	padding-left: 19px;
+	margin-bottom: 0;
+}
+.o_item_btm{
+	margin-top: 35px;
+	padding: 0 19px;
+}
+.ob_text{
+	display: flex;
+}
+.ob_text span{
+	color: #585859;
+	padding-left: 5px;
+}
+.ob_text img{
+	height: 100%;
+}
+/* online course end */
+
+/* tastimonial start */
+.testi{
+	padding: 50px 0;
+}
+.t_img{
+	margin-left: 40px;
+}
+.t_btm{
+	margin: 50px 0;
+}
+.t_text{
+	margin-right: 40px;
+}
+/* tastimonial end */
+
+/* footer start */
+footer{
+	padding: 70px 0;
+	background-color: #282531;
+	color: #fff;
+}
+.f_right{}
+.fr_text h6{
+	font-weight: 700;
+	font-size: 20px;
+}
+.fr_text a{
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	line-height: 30px;
+	transition: .4s;
+}
+.fr_text a:hover {
+	color: #21B573;
+}
+/* footer end */

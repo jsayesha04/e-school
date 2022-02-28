@@ -1,0 +1,282 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /* common css start */
+    body{
+        line-height: 22px;
+        font-size: 14px;
+    }
+    /* common css end */
+/* header start */
+.logo img{
+    width: 70%;
+}
+header .menu li a{
+    padding: 5px 0 !important;
+}
+.n_togg{
+    margin-top: -23px;
+}
+.b_btn{
+    margin: 8px 0 !important;
+    padding: 5px !important;
+    text-align: center !important;
+    width: 80px;
+}
+.s_btn{
+   margin: 10px 0 !important;
+}
+/* header end */
+
+/* banner start */
+.banner{
+    padding: 30px 0;
+    text-align: center;
+}
+.b_text{
+    margin-bottom: 50px;
+    margin-left: 0;
+}
+.b_text h1{
+    line-height: 50px;
+    font-size: 32px;
+}
+.b_text p{
+    line-height: 30px;
+}
+.b_text button{
+    padding: 15px 25px;
+}
+/* banner end */
+
+/* courses start */
+.c_single{
+    margin-top: 20px;
+}
+
+.s_text h6 {
+    font-size: 22px;
+}
+/* courses end */
+/* online courses start */
+.o_course{
+    padding: 0;
+}
+.c_title h3 {
+    font-size: 28px;
+}
+
+.o_item {
+    width: 308px;
+    margin-top: 30px !important;
+    margin: 0 auto;
+}
+.o_item h4 {
+    font-size: 22px;
+}
+/* online courses end */
+/* tastimonial start */
+.testi{
+    padding: 30px 0;
+}
+.t_img{
+    text-align: center;
+    margin-left: 0;
+}
+.t_text{
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 0;
+}
+.t_btm{
+    margin: 0;
+}
+/* tastimonial end */
+
+/* footer start */
+footer{
+    padding: 30px 0;
+    text-align: center;
+}
+.fr_text{
+    margin-top: 20px;
+}
+.fo_1{
+    order: 1 !important;
+}
+.fo_2{
+    margin-top: 40px;
+    order: 2 !important;
+}
+.fr_text a{
+    line-height: 24px;
+}
+/* footer end */
+
+/* header start */
+/* header end */
+}  
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* common css start */
+body{
+    line-height: 22px;
+    font-size: 15;
+}
+/* common css end */
+/* header start */
+header .menu li a{
+    padding: 5px 0 !important;
+}
+.b_btn{
+    margin: 8px 0 !important;
+    padding: 5px !important;
+    text-align: center !important;
+    width: 80px;
+}
+.s_btn{
+   margin: 10px 0 !important;
+}
+/* header end */
+
+/* banner start */
+.banner{
+    padding: 40px 0;
+}
+.b_text{
+    margin-bottom: 50px;
+}
+.b_text h1{
+    font-size: 45px;
+}
+/* banner end */
+
+/* courses start */
+.c_single{
+    margin-top: 20px;
+}
+/* courses end */
+/* online courses start */
+.o_course{
+    padding: 0;
+}
+.c_title h3 {
+    font-size: 32px;
+}
+
+.o_item {
+    margin-top: 30px !important;
+    margin: 0 auto;
+}
+/* online courses end */
+/* tastimonial start */
+.t_img{
+    margin-left: 0;
+}
+.t_text{
+    margin-right: 0;
+    margin-top: 20px;
+
+}
+.t_btm{
+    text-align: center;
+    margin: 40px 0 10px;
+}
+/* tastimonial end */
+
+
+/* footer start */
+.fo_1{
+    order: 1 !important;
+}
+.fo_2{
+    text-align: center;
+    margin-top: 40px;
+    order: 2 !important;
+}
+/* footer end */
+ }
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+ 
+/* header start */
+header .menu li a{
+    padding: 5px 0 !important;
+}
+.b_btn{
+    margin: 8px 0 !important;
+    padding: 5px !important;
+    text-align: center !important;
+    width: 80px;
+}
+.s_btn{
+   margin: 10px 0 !important;
+}
+/* header end */
+
+/* banner start */
+.banner{
+   /* text-align: center;*/
+    padding: 50px 0;
+}
+.b_text{
+    margin-bottom: 60px;
+}
+/* banner end */
+
+/* courses start */
+.c_single{
+    margin-top: 20px;
+}
+/* courses end */
+/* online courses start */
+.o_item {
+    margin-top: 30px !important;
+    margin: 0 auto;
+}
+/* online courses end */
+
+/* tastimonial start */
+.t_img{
+    margin-left: 0;
+}
+.t_text{
+    margin-right: 0;
+
+}
+.t_btm{
+    margin: 40px 0 20px;
+}
+/* tastimonial end */
+
+
+/* header start */
+/* header end */
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/* courses start */
+.o_item {
+    width: 310px;
+}
+/* courses end */
+
+
+
+
+
+/* header start */
+/* header end */
+ }
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+/* header start */
+/* header end */
+ }
+/* Extra extra large devices ( extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    
+
+/* header start */
+/* header end */
+}
